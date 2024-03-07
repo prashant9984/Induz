@@ -1,0 +1,167 @@
+@media(max-width: 1200px){
+
+}
+
+
+@media (max-width: 991px){
+    .inner{
+        max-width: 600px;
+    }
+    /* hambarger menu */
+    .header-wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color: var(--white);
+        padding-bottom: 15px;
+    }
+
+    .header-wrapper .nav-item .nav-link{
+        margin-top: 15px;
+    }
+
+
+    /* hambarger menu */
+
+    .about .left,
+    .about .right{
+        width: 100%;
+    }
+
+    /* story */
+
+    .our-story .story-img,
+    .our-story .story-text{
+        width: 100%;
+    }
+
+    .our-story .story-text{
+        margin-top: 4rem;
+    }
+
+    /* state */
+    .state .text-box,
+    .img-box{
+        width: 100%;
+        height: auto;
+    }
+
+    .state .img-box{
+        width: 100%;
+        height: auto;
+    }
+    .state .img-box img{
+        margin-bottom: 1rem;
+    }
+
+    /* blog */
+    .blog .img-box{
+        width: 100%;
+        height: auto;
+    }
+    .blog{
+        height: auto;
+    }
+
+    /* subscribe */
+
+    .subscript .heading{
+        width: 100%;
+        font-weight: 300;
+        font-size: 2rem;
+    }
+    .subscript .subscript-inner .input{
+        width: 25%;
+    }
+
+    .subscript p{
+        font-size: 1rem;
+    }
+    /* footer */
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-section .paragraph{
+        line-height: 15px;
+    }
+    .footer-section .social-icon .icon{
+        display: flex;
+        padding: 0;
+        margin-right: 0.5rem;
+        font-size: 0.5rem;
+    }
+    .footer-section .social-icon .icon .fab{
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media (max-width: 670px){
+    html{
+        font-size: 8px;
+    }
+    .footer-section .paragraph{
+        line-height: 15px;
+    }
+    .footer-section .social-icon .icon{
+        display: flex;
+        padding: 0;
+        margin-right: 0.5rem;
+        font-size: 0.5rem;
+    }
+    .footer-section .social-icon .icon .fab{
+        font-size: 1.5rem;
+    }
+
+    .subscript p{
+        font-size: 1.5rem;
+    }
+     
+}
+
+@media(max-width: 500px){
+    .f-box{
+        width: 100%;
+        text-align: left;
+        
+    }
+    .f-box h1,
+    .f-box p,
+    .f-box i{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .f-box h1{
+        padding: 0.5rem 0;
+    }
+
+    .social-icon{
+        width: 60%;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 1rem 1rem;
+    }
+    .fa-solid{
+        padding: 0;
+    }
+    .f-big{
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media(max-width: 350px){
+    .f-box{
+        width: 100%;
+        text-align: left;
+    }
+
+    .f-big{
+        width: 100%;
+    }
+
+    .f-box p{
+        line-height: 10px;
+    }
+}
